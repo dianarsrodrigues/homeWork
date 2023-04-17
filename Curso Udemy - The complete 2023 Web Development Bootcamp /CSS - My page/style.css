@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 7%;
+    border-color: #ECF9FF;
+    border-width: 7px;
+    margin: 50px auto;
+}
+
+.top-container {
+    background-color: #ECF9FF;
+    position: relative;
+    padding-top: 60px;
+}
+
+h1 {
+    margin: 30px auto 0 auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px; /* 1rem = 16px. 50px/16px= 3.125rem% */
+    color: #F8CBA6;
+}
+
+h2 {
+    font-family: 'Cormorant', serif;
+    color: #F8CBA6;
+    font-size: 40px;
+    text-align: center;
+}
+
+.h2-top-container {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F8CBA6;
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 34px;
+    right: 180px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.middle-container {
+    text-align: left;
+}
+
+.me-img {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Cormorant', serif;
+    color: #FFE7CC;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.computer-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #ECF9FF;
+    font-size: 20px;
+    color:#F8CBA6;
+    font-weight: normal;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #FFE7CC; /* Green */
+    color: white;
+}
+
+.bottom-container {
+    background-color: #ECF9FF;
+    padding: 40px;
+    line-height: 3;
+    font-size: 15px;
+}
+
+.footer-link {
+    color: #F8CBA6;
+    text-decoration: none;
+    font-size: 20px;
+    padding:0 20px 0 0;
+}
+
+.footer-link:hover {
+    color: white;
+}
